@@ -23,7 +23,7 @@ Implementing the package requires configuring a Telegram bot and obtaining a tok
 You can install the package via composer:
 
 ```bash
-composer require NicolaeSoitu/TelegramDump
+composer require nicolae-soitu/telegram-dump
 ```
 
 You can publish
