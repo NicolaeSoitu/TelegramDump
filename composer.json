@@ -9,9 +9,9 @@
         "homepage": "https://github.com/NicolaeSoitu"
     },
     "require": {
-        "php": "^5.2",
-        "guzzlehttp/guzzle": "^6.0",
-        "laravel/framework": "^5.2"
+        "php": ">=5.2",
+        "guzzlehttp/guzzle": ">=6.0",
+        "laravel/framework": ">=5.2"
     },
     "autoload": {
         "psr-4": {
