@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "NicolaeSoitu\\TelegramDump\\": "src",
+            "NicolaeSoitu\\TelegramDump\\": "src"
         }
     },
     "extra": {
