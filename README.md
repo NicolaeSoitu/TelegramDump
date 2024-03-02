@@ -41,7 +41,8 @@ For using this package you need have or to create Telegram bot
 - Go to your bot push /start
 
 ## Add to the `.env` file
-DEV_TELEGRAM_TOKEN=...telegram token...
+TELEGRAM_DUMP_TOKEN=...telegram token...
+
 TELEGRAM_DUMP_CHAT_ID=...telegram chat id...
 
 ## Usage example
