@@ -1,0 +1,25 @@
+{
+    "name": "NicolaeSoitu/TelegramDump",
+    "description": "The Laravel package for sending dumps directly to Telegram is an extremely useful tool for developers who want to monitor and analyze the behavior of Laravel applications in real time by receiving dumps directly in a Telegram chat.",
+    "license": "MIT",
+    "author": {
+        "name": "Nicolae Șoitu",
+        "homepage": "https://github.com/NicolaeSoitu"
+    },
+    "require": {
+        "php": "^5.2",
+        "guzzlehttp/guzzle": "^6.0",
+    },
+    "autoload": {
+        "psr-4": {
+            "NicolaeSoitu\\TelegramDump\\": "src",
+        }
+    },
+    "extra": {
+      "laravel": {
+          "providers": [
+              "NicolaeSoitu\\TelegramDump\\Providers\\TelegramDumpServiceProvider"
+          ]
+      }
+  },
+}
