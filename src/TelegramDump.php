@@ -106,7 +106,7 @@ class TelegramDump
     return $responses;
   }
 
-  public static function setTitle($title){
+  public static function title($title){
       self::$title = $title;
       return new static();
   }
@@ -121,7 +121,7 @@ class TelegramDump
       return new static();
   }
 
-  public static function setType($type = 'info'){
+  public static function type($type = 'info'){
       if($type == 'info'){
           $type = "ℹ️";
       } else if($type == 'warning'){

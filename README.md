@@ -28,7 +28,7 @@ composer require nicolae-soitu/telegram-dump
 
 You can publish
 ```bash
-php artisan vendor:publish --provider="NicolaeSoitu\TelegramDump\Providers\TelegramDumpServiceProvide"
+php artisan vendor:publish --provider="NicolaeSoitu\TelegramDump\Providers\TelegramDumpServiceProvider"
 ```
 
 
@@ -66,11 +66,11 @@ use NicolaeSoitu/TelegramDump/TelegramDump;
   // ok ✅
   // delete ❌
   // or custom (any string/emoji)
-  -> setType('info')
+  -> type('info')
   // Notification title
-  -> setTitle('Title')
+  -> title('Title')
   // Notification descriotion
-  -> description('Description')
+  -> description('Short description')
   // send is required - any variable/object/string...
   -> send($var);
 
@@ -95,6 +95,15 @@ $this->reportable(function (Throwable $e) {
   TelegramDump::send($e); // add it here in reportable
 });
 //...
+```
+
+## Commands
+```
+php artisan telegram-dump:test
+```
+
+```
+php artisan telegram-dump:getUpdate
 ```
 
 In conclusion, this package represents an efficient and flexible solution for monitoring and debugging Laravel applications, providing a direct and fast method to send critical information to Telegram, facilitating a rapid response to emerging issues.
